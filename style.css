@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300..1000&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "ital", "Poppins";
+}
+body{
+    background-color: #232830;
+    width: 100vw;
+}
+.pageHeader{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    width: 1236px;
+    height: 515px;
+}
+.pageHeader .menu{
+    display: flex;
+    justify-content: end;
+    width: 100% ;
+    height: min-content;
+}
+.menu #subTitle{
+    margin-right: 800px;
+}
+.menu h3,a{
+    margin-right: 20px;
+}
+.menu a{
+    text-decoration: none;
+}
+h3,a{
+    color: whitesmoke;
+    font-family: "Recursive";
+}
+#title{
+    font-family: "Recursive";
+}
+.centralBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 90%;
+    width: 100%;
+}
+.centralBox img{
+    margin-left: 40px;
+    width: 194.45px;
+    height: 204.08px;
+}
+
+.categoryListing{
+    width: 100%;
+    height: 65px;
+    border-top: 1px solid #4D4D4D;
+}
+.categoryListing ul{
+    margin: 0px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.categoryListing a{
+    font-family: "Recursive";
+    color: #909090;
+    text-decoration: none;
+}
+.categoryListing a:hover{
+    color: whitesmoke;
+    transform: scale(1.1);
+    background-position: -60px;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.bodyBox{
+    display: grid;
+    width: 80%;
+    grid-template-columns: 30% 30% 30%;
+    margin: auto;
+    gap: 20px;
+}
+.group{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    border-radius: 22px;
+    border: 2px solid black;
+}
+.group .imageGroup{
+    margin-top: 10px;
+    width: 90%;
+    height: 150px;
+    background-color: black;
+    border-radius: 22px;
+}
+.imageGroup img{
+    width: 100%;
+    height: 100%;
+}
+.textGroup h4,h6{
+    text-align: left;
+}
+.textGroup{
+    width: 90%;
+    height: 160px;
+    overflow: auto;
+}
+.navList{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+.navList a{
+    text-decoration: none;
+    font-family: "Recursive";
+    color: #909090;
+}
+.navList a:hover{
+    color: whitesmoke;
+    transform: scale(1.1);
+    background-position: -60px;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #4D4D4D;
+    height: 100px;
+    width: 100%;
+}
