@@ -7,14 +7,13 @@
 }
 body{
     background-color: #232830;
-    width: 100vw;
 }
 .pageHeader{
     display: flex;
     flex-direction: column;
     margin: auto;
     margin-top: 20px;
-    width: 1236px;
+    width: 100%;
     height: 515px;
 }
 .pageHeader .menu{
@@ -69,12 +68,7 @@ h3,a{
     color: #909090;
     text-decoration: none;
 }
-.categoryListing a:hover{
-    color: whitesmoke;
-    transform: scale(1.1);
-    background-position: -60px;
-    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-}
+
 .bodyBox{
     display: grid;
     width: 80%;
@@ -118,22 +112,17 @@ h3,a{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: large;
+    font-size: medium;
 }
 .navList a{
     text-decoration: none;
     font-family: "Recursive";
     color: #909090;
 }
-.navList a:hover{
-    color: whitesmoke;
-    transform: scale(1.1);
-    background-position: -60px;
-    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-}
 
 .footer{
     display: flex;
+    gap: 20px;
     justify-content: center;
     align-items: center;
     border-top: 1px solid #4D4D4D;
